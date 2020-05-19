@@ -39,28 +39,19 @@ document.querySelector("body").addEventListener("click", function () {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(createArticleObject),
-    }).then(() => {
-        return fetch("http://localhost:8088/newsArticles")
-       })
-       .then(dirtyNews => dirtyNews.json())
-       .then(articles => {
-           container.innerHTML = "";
-           articles.forEach((article) => {
-            container.innerHTML += createNewsCard(article)
-           })
-           
-           
-       });
-    console.log(createArticleObject);
+    })
+      .then(() => {
+        return fetch("http://localhost:8088/newsArticles");
+      })
+      .then((dirtyNews) => dirtyNews.json())
+      .then((articles) => {
+        container.innerHTML = "";
+        articles.forEach((article) => {
+          container.innerHTML += createNewsCard(article);
+        });
+      });
   }
-  
-  //   document.querySelector("#newsContainer").innerHTML += "";
-  //   createNewsCard
 });
-
-
-
-
 
 const createNewsCard = (article) => {
   return `
