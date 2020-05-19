@@ -16,12 +16,12 @@
     "chat_messages": [
         {
             "id": 1,
-            "userid": 1,
+            "userId": 1,
             "message": "I can do this all day"
         },
         {
             "id": 2,
-            "userid": 2,
+            "userId": 2,
             "message": "Sometimes I want to punch you in your perfect teeth"
         }
     ],
@@ -31,27 +31,27 @@
             "date": "10/20/2020",
             "name": "Endgame",
             "location": "New York",
-            "userid":1
+            "userId":1
         },
         {
             "id": 2,
             "date": "12/20/2020",
             "name": "Infinity War",
             "location": "London",
-            "userid":2
+            "userId":2
         }
     ],
     "new_articles": [
         {
             "id":1,
-            "userid":1,
+            "userId":1,
             "url":"www.avengers.com",
             "title":"Thanos is here!",
             "synopsis":"Aliens arrive from outer space to destroy Earth!"
         },
         {
             "id":2,
-            "userid":2,
+            "userId":2,
             "url":"www.DailyBugle.com",
             "title":"The Blip",
             "synopsis":"Adjusting to life after being gone for five years."
@@ -60,7 +60,7 @@
     "daily_tasks":[
         {
             "id":1,
-            "userid":1,
+            "userId":1,
             "task":"Say the pledge of allegiance.",
             "completed":"true",
             "deadline": "07:00am"
