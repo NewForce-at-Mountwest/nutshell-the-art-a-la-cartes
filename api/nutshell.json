@@ -1,69 +1,111 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Rogers",
-            "username": "CaptainAmerica1",
-            "email": "captainamerica@avengers.com"
-        },
-        {
-            "id": 2,
-            "name": "Stark",
-            "username": "IronMan1",
-            "email": "IronMan@avengers.com"
-        }
-    ],
-    "chat_messages": [
-        {
-            "id": 1,
-            "userid": 1,
-            "message": "I can do this all day"
-        },
-        {
-            "id": 2,
-            "userid": 2,
-            "message": "Sometimes I want to punch you in your perfect teeth"
-        }
-    ],
-    "Events": [
-        {
-            "id": 1,
-            "date": "10/20/2020",
-            "name": "Endgame",
-            "location": "New York",
-            "userid":1
-        },
-        {
-            "id": 2,
-            "date": "12/20/2020",
-            "name": "Infinity War",
-            "location": "London",
-            "userid":2
-        }
-    ],
-    "new_articles": [
-        {
-            "id":1,
-            "userid":1,
-            "url":"www.avengers.com",
-            "title":"Thanos is here!",
-            "synopsis":"Aliens arrive from outer space to destroy Earth!"
-        },
-        {
-            "id":2,
-            "userid":2,
-            "url":"www.DailyBugle.com",
-            "title":"The Blip",
-            "synopsis":"Adjusting to life after being gone for five years."
-        }
-    ],
-    "daily_tasks":[
-        {
-            "id":1,
-            "userid":1,
-            "task":"Say the pledge of allegiance.",
-            "completed":"true",
-            "deadline": "07:00am"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Rogers",
+      "username": "CaptainAmerica1",
+      "email": "captainamerica@avengers.com"
+    },
+    {
+      "id": 2,
+      "name": "Stark",
+      "username": "IronMan1",
+      "email": "IronMan@avengers.com"
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "message": "I can do this all day"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "message": "Sometimes I want to punch you in your perfect teeth"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "date": "10/20/2020",
+      "name": "Endgame",
+      "location": "New York",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "date": "12/20/2020",
+      "name": "Infinity War",
+      "location": "London",
+      "userId": 2
+    }
+  ],
+  "newsArticles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "url": "www.avengers.com",
+      "title": "Thanos is here!",
+      "synopsis": "Aliens arrive from outer space to destroy Earth!"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "url": "www.DailyBugle.com",
+      "title": "The Blip",
+      "synopsis": "Adjusting to life after being gone for five years."
+    },
+    {
+      "title": "Garbage Fire",
+      "url": "cnn.com",
+      "synopsis": "Trump's Twitter",
+      "id": 3
+    },
+    {
+      "title": "Rona is here",
+      "url": "who.org",
+      "synopsis": "We're all gonna die",
+      "id": 4
+    },
+    {
+      "title": "",
+      "url": "",
+      "synopsis": "",
+      "id": 5
+    },
+    {
+      "title": "Iron Man is Dead",
+      "url": "marvel.com",
+      "synopsis": "Long live Tony Stark, the one who privatized world peace",
+      "id": 6
+    },
+    {
+      "title": "",
+      "url": "",
+      "synopsis": "",
+      "id": 7
+    },
+    {
+      "title": "Spider-Man is Peter Park",
+      "url": "dailybugle.com",
+      "synopsis": "CAN YOU BELIEVE",
+      "id": 8
+    },
+    {
+      "title": "Mysterio is dead",
+      "url": "dailybugle.com",
+      "synopsis": "He deserved it",
+      "id": 9
+    }
+  ],
+  "dailyTasks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "task": "Say the pledge of allegiance.",
+      "completed": "true",
+      "deadline": "07:00am"
+    }
+  ]
 }
