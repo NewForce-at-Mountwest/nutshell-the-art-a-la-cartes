@@ -1,69 +1,69 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Rogers",
-            "username": "CaptainAmerica1",
-            "email": "captainamerica@avengers.com"
-        },
-        {
-            "id": 2,
-            "name": "Stark",
-            "username": "IronMan1",
-            "email": "IronMan@avengers.com"
-        }
-    ],
-    "chat_messages": [
-        {
-            "id": 1,
-            "userId": 1,
-            "message": "I can do this all day"
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "message": "Sometimes I want to punch you in your perfect teeth"
-        }
-    ],
-    "Events": [
-        {
-            "id": 1,
-            "date": "10/20/2020",
-            "name": "Endgame",
-            "location": "New York",
-            "userId":1
-        },
-        {
-            "id": 2,
-            "date": "12/20/2020",
-            "name": "Infinity War",
-            "location": "London",
-            "userId":2
-        }
-    ],
-    "new_articles": [
-        {
-            "id":1,
-            "userId":1,
-            "url":"www.avengers.com",
-            "title":"Thanos is here!",
-            "synopsis":"Aliens arrive from outer space to destroy Earth!"
-        },
-        {
-            "id":2,
-            "userId":2,
-            "url":"www.DailyBugle.com",
-            "title":"The Blip",
-            "synopsis":"Adjusting to life after being gone for five years."
-        }
-    ],
-    "daily_tasks":[
-        {
-            "id":1,
-            "userId":1,
-            "task":"Say the pledge of allegiance.",
-            "completed":"true",
-            "deadline": "07:00am"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Rogers",
+      "username": "CaptainAmerica1",
+      "email": "captainamerica@avengers.com"
+    },
+    {
+      "id": 2,
+      "name": "Stark",
+      "username": "IronMan1",
+      "email": "IronMan@avengers.com"
+    }
+  ],
+  "chat_messages": [
+    {
+      "message": ":(",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "message": "Tony left me on read",
+      "userId": 1,
+      "id": 7
+    }
+  ],
+  "Events": [
+    {
+      "id": 1,
+      "date": "10/20/2020",
+      "name": "Endgame",
+      "location": "New York",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "date": "12/20/2020",
+      "name": "Infinity War",
+      "location": "London",
+      "userId": 2
+    }
+  ],
+  "new_articles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "url": "www.avengers.com",
+      "title": "Thanos is here!",
+      "synopsis": "Aliens arrive from outer space to destroy Earth!"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "url": "www.DailyBugle.com",
+      "title": "The Blip",
+      "synopsis": "Adjusting to life after being gone for five years."
+    }
+  ],
+  "daily_tasks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "task": "Say the pledge of allegiance.",
+      "completed": "true",
+      "deadline": "07:00am"
+    }
+  ]
 }
