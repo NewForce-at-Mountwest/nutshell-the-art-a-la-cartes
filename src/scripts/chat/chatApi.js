@@ -21,5 +21,18 @@ const chatApiManager = {
           method: "DELETE",
         })
       },
+      getOneMessage: (id) => {
+        return fetch(`http://localhost:8088/chat_messages/${id}`).then(r => r.json())
+      },
+      updateMessage: (messageObject) => {
+        // restaurantObject.userId = sessionStorage.getItem("userId")
+        return fetch(`http://localhost:8088/chat_messages/${messageObject.id}`,{
+          method: "PUT",
+          headers: {
+              "Content-Type": "application/json"
+          },
+          body: JSON.stringify(messageObject)
+      })
+      }
 }
 export default chatApiManager
