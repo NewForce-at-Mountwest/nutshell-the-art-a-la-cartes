@@ -25,7 +25,7 @@ const chatApiManager = {
         return fetch(`http://localhost:8088/chat_messages/${id}`).then(r => r.json())
       },
       updateMessage: (messageObject) => {
-        // restaurantObject.userId = sessionStorage.getItem("userId")
+        // messageObject.userId = sessionStorage.getItem("userId")
         return fetch(`http://localhost:8088/chat_messages/${messageObject.id}`,{
           method: "PUT",
           headers: {

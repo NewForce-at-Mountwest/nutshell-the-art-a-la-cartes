@@ -16,23 +16,23 @@
   "chat_messages": [
     {
       "message": ":(",
-      "userId": 1,
-      "id": 6
+      "id": 6,
+      "userId": 1
     },
     {
-      "message": "Tony left me on read",
-      "userId": 1,
-      "id": 7
+      "message": "Tony read me",
+      "id": 7,
+      "userId": 1
     },
     {
-      "message": "Avengers..",
-      "userId": 1,
-      "id": 8
+      "message": "Avengers.. Assemble",
+      "id": 8,
+      "userId": 1
     },
     {
-      "message": "...",
-      "userId": 1,
-      "id": 9
+      "message": ".....",
+      "id": 9,
+      "userId": 1
     }
   ],
   "Events": [
