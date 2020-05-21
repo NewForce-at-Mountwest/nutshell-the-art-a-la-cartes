@@ -20,8 +20,17 @@ const fetchCalls = {
           })
     },
         editEvent: (id) => {
-            return fetch(`http://localhost:8088/${id}`)
+            return fetch(`http://localhost:8088/newsArticles/${id}`)
             .then(dirtyNews => dirtyNews.json())
+          },
+          updateEvent: (articleObject) => {
+            return fetch(`http://localhost:8088/newsArticles/${articleObject.id}`,{
+              method: "PUT",
+              headers: {
+                  "Content-Type": "application/json"
+              },
+              body: JSON.stringify(articleObject)
+          })
           }
     }
 export default fetchCalls
