@@ -1,7 +1,7 @@
 import printerObject from "./chatdom.js"
 import chatApiManager from "./chatApi.js"
 
-const eventListeners = {
+const chatEventListeners = {
     onPageload: () => {
         chatApiManager.getAllMessages()
 
@@ -82,4 +82,4 @@ const eventListeners = {
     }
 };
 
-export default eventListeners
+export default chatEventListeners
