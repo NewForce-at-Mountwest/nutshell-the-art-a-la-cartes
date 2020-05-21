@@ -72,6 +72,24 @@
       "url": "whoisgamora.com",
       "synopsis": "Why is Gamora!",
       "id": 10
+    },
+    {
+      "title": "Have you seen Drax?",
+      "url": "doubtit.com",
+      "synopsis": "He is standing *very* still",
+      "id": 11
+    },
+    {
+      "title": "Thor has put on some weight",
+      "url": "weightwatchers.com",
+      "synopsis": "We stan Fat Thor",
+      "id": 12
+    },
+    {
+      "title": "Peter Parker = Spider-Man",
+      "url": "dailybugle.com",
+      "synopsis": "Can we believe JJ?",
+      "id": 13
     }
   ],
   "dailyTasks": [

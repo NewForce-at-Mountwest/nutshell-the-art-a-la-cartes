@@ -5,6 +5,7 @@ const domPrintObjects = {
           <input type="text" placeholder="News Article Title" id="title-input">
           <input type="url" placeholder="News Article URL" id="article-input"><br>
           <input type="text" placeholder="News Article Synopsis" id="synopsis-input"><br>
+          <input type="datetime-local">
           <button id="save-btn">Save</button>
       </div>`;
   },
