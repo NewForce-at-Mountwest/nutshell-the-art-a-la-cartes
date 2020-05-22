@@ -7,8 +7,8 @@ const printerObject = {
             const htmlString = `<div class="messages" id="message-${messageObject.id}">
         <p>Username: ${messageObject.user.name}</p>
         <p>Message: ${messageObject.message}</p>
-        <button id="delete-btn-${messageObject.id}">Delete</button>
-        <button id="edit-btn-${messageObject.id}">Edit</button>
+        <button id="delete-chat-${messageObject.id}">Delete</button>
+        <button id="edit-chat-${messageObject.id}">Edit</button>
         </div>`;
             document.querySelector("#chatContainer").innerHTML += htmlString;
         })

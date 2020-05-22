@@ -1,15 +1,15 @@
 import chatEventListeners from "./chat/chatEvent.js"
 import chatApiManager from "./chat/chatApi.js";
-import printerObject from "./chat/chatdom.js";
 import newsEventListener from "./news/newsEventListeners.js";
+import printerObject from "./chat/chatdom.js";
 // Add a click event listener to the search button
 
 document.querySelector("input.message-form__button").addEventListener("click", chatEventListeners.saveMessageEvent)
 
 document.querySelector("body").addEventListener("click", () => {
-    if (event.target.id.includes("delete-btn")) {
+    if (event.target.id.includes("delete-chat")) {
         chatEventListeners.deleteMessageEvent();
-    } else if (event.target.id.includes("edit-btn")) {
+    } else if (event.target.id.includes("edit-chat")) {
         chatEventListeners.printEditForm();
     } else if (event.target.id.includes("save-changes")) {
         chatEventListeners.saveMessageChangesEvent();

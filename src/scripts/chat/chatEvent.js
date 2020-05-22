@@ -21,7 +21,7 @@ const chatEventListeners = {
         chatApiManager.postMessage(messageObject)
             .then(chatApiManager.getAllMessages)
             .then((dirtyMessages) => {
-                printerObject.printAllMessages(messageArray)
+                printerObject.printAllMessages(dirtyMessages)
             })
     },
     deleteMessageEvent: () => {
