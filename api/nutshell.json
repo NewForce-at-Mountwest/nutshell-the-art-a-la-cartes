@@ -13,19 +13,44 @@
       "email": "IronMan@avengers.com"
     }
   ],
-  "chatMessages": [
+  "chat_messages": [
     {
-      "id": 1,
-      "userId": 1,
-      "message": "I can do this all day"
+      "message": ":(",
+      "id": 6,
+      "userId": 1
     },
     {
-      "id": 2,
-      "userId": 2,
-      "message": "Sometimes I want to punch you in your perfect teeth"
+      "message": "Tony read me",
+      "id": 7,
+      "userId": 1
+    },
+    {
+      "message": "Avengers..",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "message": "...Assemble!",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "message": "Hey Tommy",
+      "id": 12,
+      "userId": 1
+    },
+    {
+      "message": "no u",
+      "id": 13,
+      "userId": 1
+    },
+    {
+      "message": "These news articles rock",
+      "userId": 1,
+      "id": 14
     }
   ],
-  "events": [
+  "Events": [
     {
       "id": 1,
       "date": "10/20/2020",
