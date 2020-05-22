@@ -11,6 +11,48 @@
       "name": "Stark",
       "username": "IronMan1",
       "email": "IronMan@avengers.com"
+    },
+    {
+      "name": "Danvers",
+      "username": "CaptainMarvel1",
+      "email": "captainmarvel@avengers.com",
+      "id": 3
+    },
+    {
+      "name": "Thor",
+      "username": "GodOfThunder1",
+      "email": "thor@avengers.com",
+      "id": 4
+    },
+    {
+      "name": "Banner",
+      "username": "TheBigGuy1",
+      "email": "hulk@avengers.com",
+      "id": 5
+    },
+    {
+      "name": "Barton",
+      "username": "Hawkeye1",
+      "email": "hawkeye@avengers.com",
+      "id": 6
+    },
+    {
+      "name": "Romanova",
+      "username": "BlackWidow1",
+      "email": "blackwidow@avengers.com",
+      "id": 7
+    },
+    {
+      "name": "Racoon",
+      "username": "Rocket1",
+      "email": "rocketracoon@avengers.com",
+      "id": 8
+    },
+    {
+      "name": "I am Groot",
+      "username": "IAmGroot1",
+      "email": "iamgroot@avengers.com",
+      "id": 9
     }
   ],
   "chat_messages": [
@@ -115,6 +157,12 @@
       "url": "dailybugle.com",
       "synopsis": "Can we believe JJ?",
       "id": 13
+    },
+    {
+      "title": "SPIDER-MAN IS THE LEADER",
+      "url": "dailybugle.com",
+      "synopsis": "CAN YOU BELIEVE",
+      "id": 14
     }
   ],
   "dailyTasks": [
