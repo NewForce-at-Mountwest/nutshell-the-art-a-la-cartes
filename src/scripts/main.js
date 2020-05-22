@@ -3,26 +3,26 @@ import printerObject from "./chat/chatdom.js";
 import chatApiManager from "./chat/chatApi.js";
 import newsEventListener from "./news/newsEventListeners.js";
 import domPrinter from "./domPrinter.js";
-// USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER
-document.querySelector("#loginContainer").innerHTML += domPrinter.loginForm();
-document.querySelector("body").addEventListener("click", () => {
-  if (event.target.id.includes("login-btn")) {
-  const usernameValue = document.querySelector("#username-input").value;
-  const passwordValue = document.querySelector("#password-input").value;
-  console.log(usernameValue, passwordValue);
-// PLEASE FOR THE LOVE OF GOD WHY AREN'T YOU WORKING???!?!?!?!?!?
+import allEventListeners from "./eventListeners.js";
 
-  // fetch(`http://localhost:8088/users?username=${usernameValue}`)
-  //   .then((r) => r.json())
-  //   .then((user) => {
-  //     console.log(user[0].id); })
-      // sessionStorage.setItem("userId", user[0].id);
-      // // Print all of the restaurants
-      // fetchCalls.updateEvent(articleObjectEdit)
-      // .then(newsEventListeners.onPageLoadEvent)
-   
-  };
+// USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER
+// Login Registration
+const login = document.querySelector("#loginContainer")
+// Login form
+ login.innerHTML += domPrinter.loginForm();
+ login.innerHTML += domPrinter.registrationForm();
+
+// user register/login
+document.querySelector("body").addEventListener("click", () => {
+  
+  if (event.target.id.includes("register-btn")){
+    allEventListeners.registerEvent();
+  } else if (event.target.id.includes("login-btn")) {
+    allEventListeners.loginEvent();
+  } 
 });
+
+// USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER
 
 // Add a click event listener to the search button
 
