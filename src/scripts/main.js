@@ -5,7 +5,7 @@ import newsEventListener from "./news/newsEventListeners.js";
 import domPrinter from "./domPrinter.js";
 import allEventListeners from "./eventListeners.js";
 
-// USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER
+// USER 
 // Login Registration
 const login = document.querySelector("#loginContainer")
 // Login form
@@ -22,7 +22,7 @@ document.querySelector("body").addEventListener("click", () => {
   } 
 });
 
-// USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER USER
+// USER 
 
 // Add a click event listener to the search button
 
