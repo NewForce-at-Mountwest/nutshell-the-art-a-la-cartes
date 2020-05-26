@@ -44,7 +44,7 @@ chatEventListeners.onPageload();
 
 newsEventListener.onPageLoadEvent();
 // Save event
-document.querySelector("body").addEventListener("click", function () {
+document.querySelector("newsContainer").addEventListener("click", function () {
   if (event.target.id.includes("save-btn")) {
     newsEventListener.saveCardEvent();
   } else if (event.target.id.includes("delete-btn-")) {
