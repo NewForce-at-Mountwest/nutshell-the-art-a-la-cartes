@@ -8,9 +8,7 @@ const allEventListeners = {
         console.log("CLICK")
         const usernameValue = document.querySelector("#username-input").value;
         // const passwordValue = document.querySelector("#password-input").value;
-        // console.log(usernameValue, passwordValue);
-      // PLEASE FOR THE LOVE OF GOD WHY AREN'T YOU WORKING???!?!?!?!?!?
-      
+        // console.log(usernameValue, passwordValue);      
       everyoneApi.userFetchCall(usernameValue).then((user) => {
             console.log(user[0].id);
             sessionStorage.setItem("userId", user[0].id);
