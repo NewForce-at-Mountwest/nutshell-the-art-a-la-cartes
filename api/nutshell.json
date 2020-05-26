@@ -45,9 +45,19 @@
       "userId": 1
     },
     {
-      "message": "These news articles rock",
+      "message": "hi",
       "userId": 1,
-      "id": 14
+      "id": 16
+    },
+    {
+      "message": "hi",
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "message": "hello",
+      "userId": 1,
+      "id": 23
     }
   ],
   "Events": [
