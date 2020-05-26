@@ -6,13 +6,32 @@ body {
     flex-direction: column;
     max-height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: gray;
+  
   }
 
+  
+  .leftcolumn {
+    float: left;
+    width: 70%;
+  }
+  .rightcolumn {
+    float: left;
+    width: 30%;
+    background-color:gray;
+  }
  
+  .card-border {
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color:lightcyan;
+  }
   .messages {
     border: 1px solid #e4e4e4;
     padding: 15px;
     margin-bottom: 15px;
+    background-color: lightskyblue;
   }
 
   .messages {
@@ -23,15 +42,8 @@ body {
   .message {
     padding: 5px 0;
   }
-  .message .member {
-    display: inline-block;
-  }
 
-  .member {
-    padding-right: 10px;
-    position: relative;
-  }
-
+ 
   .message-form {
     display: flex;
     flex-shrink: 0;

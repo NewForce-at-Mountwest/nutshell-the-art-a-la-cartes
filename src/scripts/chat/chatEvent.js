@@ -16,7 +16,7 @@ const chatEventListeners = {
 
         const messageObject = {
             message: messageInput,
-            userId: 1
+            userId: sessionStorage.getItem("userId")
         };
         chatApiManager.postMessage(messageObject)
             .then(chatApiManager.getAllMessages)

@@ -53,6 +53,12 @@
       "username": "IAmGroot1",
       "email": "iamgroot@avengers.com",
       "id": 9
+    },
+    {
+      "name": "Tommy",
+      "username": "T-1",
+      "email": "t-1@email.com",
+      "id": 10
     }
   ],
   "chat_messages": [
@@ -87,9 +93,34 @@
       "userId": 1
     },
     {
-      "message": "These news articles rock",
+      "message": "hi",
       "userId": 1,
-      "id": 14
+      "id": 16
+    },
+    {
+      "message": "hi",
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "message": "hello",
+      "userId": 1,
+      "id": 23
+    },
+    {
+      "message": "Hey everyone",
+      "userId": 1,
+      "id": 24
+    },
+    {
+      "message": "Hey Everyone",
+      "userId": "10",
+      "id": 25
+    },
+    {
+      "message": "I AM GROOT",
+      "userId": "9",
+      "id": 26
     }
   ],
   "Events": [
