@@ -9,16 +9,21 @@
 </head>
 
 <body>
-    <div id="newsContainer"></div>
-    <br>
-    <div id="eventsContainer"></div>
-    <br>
-    <div id="chatContainer"></div>
-        <input class="message-form__input" placeholder="Type a message" type="text"/>
-        <input  class="message-form__button" value="Send" type="submit"/> 
-    
-    <div id="tasksContainer"></div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card" id="newsContainer"></div>
+            <br>
+            <div class="card" id="eventsContainer"></div>
+            <br>
+        </div>
+        <div class="rightcolumn">
+            <div class="card" id="chatContainer"></div>
+            <input class="message-form__input" placeholder="Type a message" type="text" />
+            <input class="message-form__button" value="Send" type="submit" />
 
+            <div id="tasksContainer"></div>
+        </div>
+    </div>
     <!-- <script type="module" src="main.js"></script> -->
     <script type="module" src="scripts/main.js"></script>
 </body>
