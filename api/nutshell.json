@@ -11,6 +11,48 @@
       "name": "Stark",
       "username": "IronMan1",
       "email": "IronMan@avengers.com"
+    },
+    {
+      "name": "Danvers",
+      "username": "CaptainMarvel1",
+      "email": "captainmarvel@avengers.com",
+      "id": 3
+    },
+    {
+      "name": "Thor",
+      "username": "GodOfThunder1",
+      "email": "thor@avengers.com",
+      "id": 4
+    },
+    {
+      "name": "Banner",
+      "username": "TheBigGuy1",
+      "email": "hulk@avengers.com",
+      "id": 5
+    },
+    {
+      "name": "Barton",
+      "username": "Hawkeye1",
+      "email": "hawkeye@avengers.com",
+      "id": 6
+    },
+    {
+      "name": "Romanova",
+      "username": "BlackWidow1",
+      "email": "blackwidow@avengers.com",
+      "id": 7
+    },
+    {
+      "name": "Racoon",
+      "username": "Rocket1",
+      "email": "rocketracoon@avengers.com",
+      "id": 8
+    },
+    {
+      "name": "I am Groot",
+      "username": "IAmGroot1",
+      "email": "iamgroot@avengers.com",
+      "id": 9
     }
   ],
   "chat_messages": [
@@ -88,43 +130,64 @@
       "title": "Rona is here",
       "url": "who.org",
       "synopsis": "We're all gonna die",
-      "id": 4
+      "id": 4,
+      "userId": 1
     },
     {
       "title": "Iron Man is Dead",
       "url": "marvel.com",
       "synopsis": "Long live Tony Stark, the one who privatized world peace",
-      "id": 6
+      "id": 6,
+      "userId": 2
     },
     {
       "title": "Mysterio is dead",
       "url": "dailybugle.com",
       "synopsis": "He deserved it",
-      "id": 9
+      "id": 9,
+      "userId": 3
     },
     {
       "title": "Where is Gamora",
       "url": "whoisgamora.com",
       "synopsis": "Why is Gamora!",
-      "id": 10
+      "id": 10,
+      "userId": 5
     },
     {
       "title": "Have you seen Drax?",
       "url": "doubtit.com",
       "synopsis": "He is standing *very* still",
-      "id": 11
+      "id": 11,
+      "userId": 4
     },
     {
       "title": "Thor has put on some weight",
       "url": "weightwatchers.com",
       "synopsis": "We stan Fat Thor",
-      "id": 12
+      "id": 12,
+      "userId": 6
     },
     {
       "title": "Peter Parker = Spider-Man",
       "url": "dailybugle.com",
       "synopsis": "Can we believe JJ?",
-      "id": 13
+      "id": 13,
+      "userId": 7
+    },
+    {
+      "title": "SPIDER-MAN IS THE LEADER",
+      "url": "dailybugle.com",
+      "synopsis": "CAN YOU BELIEVE",
+      "id": 14,
+      "userId": 8
+    },
+    {
+      "title": "I am Groot",
+      "url": "I am Groot",
+      "synopsis": "I am Groot",
+      "id": 15,
+      "userId": 9
     }
   ],
   "dailyTasks": [
